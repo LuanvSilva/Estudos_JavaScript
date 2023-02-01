@@ -35,5 +35,5 @@ class app{
             this.spaceship = new TransportSpaceship(spaceshipName,crewQuantity,sitsQuantity)
         }
     }
-    
-}
+
+}  
