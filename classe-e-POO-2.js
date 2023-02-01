@@ -35,5 +35,12 @@ class app{
             this.spaceship = new TransportSpaceship(spaceshipName,crewQuantity,sitsQuantity)
         }
     }
+    askForSpaceshipKind() {
+        let chosenOption 
+        while('1','2'.includes(chosenOption)){
+            chosenOption = prompt('Qual o tipo da nave \1 - Batalha \n2- Transporte')
+        }
+        return chosenOption
+    }
 
 }  
