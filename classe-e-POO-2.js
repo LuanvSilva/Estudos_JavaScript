@@ -21,7 +21,7 @@ class TransportSpaceship extends Spaceship {
 
 class App {
     constructor() {
-        this.spaceship = null;
+        this.spaceship = null
     }
     start() {
         let chosenOption;
